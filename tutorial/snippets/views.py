@@ -46,4 +46,4 @@ def api_root(request, format=None):
     })
 
 def git_practice(request):
-    return "git practice reset --mixed HEAD"
+    return "git practice pull and push origin main"
