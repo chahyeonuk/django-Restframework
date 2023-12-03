@@ -60,11 +60,13 @@
 * main 또는 master에서 문제가 생긴 것이므로 develop에서도 문제가 없다고 보장 할수 없다.
 * 그래서 문제가 해결되면 main branch에만 merge하는 것이 아닌 develop과 main branch에 둘다 merge하면 된다.
 
-## 이렇게 5가지의 git flow 전략에 대해서 알아 봤다. 모든 브랜치에 대해서는 정답은 아니고 main, develop, feature branches 이외에는 필수적인 요소는 아닌 것같다.(개인적인 생각)
-## 필자는 main에서 버그가 생길 시 main에서 pull을 진행 한 후 git checkout -b "feat/hotfixes"를 하게 되고 develop에 pull request를 하여 테스트를 진행 후 main에 pull request를 하게 된다.
-## 이렇게 되면 hotfixes는 feature branches로 넘어오게 되고 develop에서만 중간에서 관리를 하게 된다.
-## git flow 뿐만 아니라 git에서는 다양한 전략이 있다. 사용자에게 최신 버전만 사용하게 하는 전략과 여러 버전을 병렬적으로 관리하는 버전도 있기 때문에 
-## 이 또한 어느 프로젝트 또는 버전 관리 방법에 따라서 달라지기도 한다.
+### 이렇게 5가지의 git flow 전략에 대해서 알아 봤다. 
+### 모든 브랜치에 대해서는 정답은 아니고 main, develop, feature branches 이외에는 필수적인 요소는 아닌 것같다.(개인적인 생각)
+### 필자는 main에서 버그가 생길 시 main에서 pull을 진행 한 후 git checkout -b "feat/hotfixes"를 하게 되고 
+### develop에 pull request를 하여 테스트를 진행 후 main에 pull request를 하게 된다.
+### 이렇게 되면 hotfixes는 feature branches로 넘어오게 되고 develop에서만 중간에서 관리를 하게 된다.
+### git flow 뿐만 아니라 git에서는 다양한 전략이 있다. 사용자에게 최신 버전만 사용하게 하는 전략과 여러 버전을 병렬적으로 관리하는 버전도 있기 때문에 
+### 이 또한 어느 프로젝트 또는 버전 관리 방법에 따라서 달라지기도 한다.
 
 
 
