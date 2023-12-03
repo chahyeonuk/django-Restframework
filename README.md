@@ -1,7 +1,7 @@
 ## django Restframework와 git 전략에 대해서
 
 ### git 전략
-### Git Flow는 Vincent Driessen이 그의 블로그에 2010년에 올린 A successful Git branching model 이라는 글이 인기를 끌며 대중적으로 사용되게된 브랜치 전략이다.
+### 밑에 있는 이미지의 git 전략은 Vincent Driessen이 A successful Git branching model 이라는 글이 인기를 끌며 대중적으로 사용되게된 브랜치 전략이다.
 ![image](https://github.com/chahyeonuk/django-restframework/assets/90748800/619c6eeb-1f50-4870-86bd-db8eafda961c)
 
 ### 예시(게시판)
