@@ -41,7 +41,7 @@
 #### 4. Release
 * 프로덕트 배포를 준비하기 위한 브랜치이다. develop 브랜치에서 생성하며, 배포 준비가 완료되었다면 Main과 Develop 브랜치에 둘다 머지한다.
 * 이때, Main 브랜치에는 태그를 이용하여 버전을 표시한다.
- * (1) 0 tags를 클릭한다. 
+ * (1) tags를 클릭한다. 
 ![image](https://github.com/chahyeonuk/django-restframework/assets/90748800/8cb4cd64-3457-41ff-a65d-edf21e33aab4)
  * (2) Releases를 클릭하고, Create a new release를 버튼을 클릭한다.
 ![image](https://github.com/chahyeonuk/django-restframework/assets/90748800/06bf2956-807c-4b0c-be8a-0e3ac69d8323)
